@@ -21,6 +21,12 @@
 		F8F52F021A6C085A008B6EB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F52EE41A6C085A008B6EB6 /* UIKit.framework */; };
 		F8F52F0A1A6C085A008B6EB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8F52F081A6C085A008B6EB6 /* InfoPlist.strings */; };
 		F8F52F0C1A6C085A008B6EB6 /* TableSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52F0B1A6C085A008B6EB6 /* TableSampleTests.m */; };
+		F8F52F181A6C109C008B6EB6 /* walter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8F52F171A6C109C008B6EB6 /* walter.jpg */; };
+		F8F52F1B1A6C1417008B6EB6 /* cellTableSample.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F52F1A1A6C1417008B6EB6 /* cellTableSample.m */; };
+		F8F52F201A6C18C4008B6EB6 /* popis.png in Resources */ = {isa = PBXBuildFile; fileRef = F8F52F1C1A6C18C4008B6EB6 /* popis.png */; };
+		F8F52F211A6C18C4008B6EB6 /* nono.png in Resources */ = {isa = PBXBuildFile; fileRef = F8F52F1D1A6C18C4008B6EB6 /* nono.png */; };
+		F8F52F221A6C18C4008B6EB6 /* kiko.png in Resources */ = {isa = PBXBuildFile; fileRef = F8F52F1E1A6C18C4008B6EB6 /* kiko.png */; };
+		F8F52F231A6C18C4008B6EB6 /* chavo.png in Resources */ = {isa = PBXBuildFile; fileRef = F8F52F1F1A6C18C4008B6EB6 /* chavo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		F8F52F071A6C085A008B6EB6 /* TableSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableSampleTests-Info.plist"; sourceTree = "<group>"; };
 		F8F52F091A6C085A008B6EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8F52F0B1A6C085A008B6EB6 /* TableSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableSampleTests.m; sourceTree = "<group>"; };
+		F8F52F171A6C109C008B6EB6 /* walter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = walter.jpg; path = images/walter.jpg; sourceTree = "<group>"; };
+		F8F52F191A6C1417008B6EB6 /* cellTableSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellTableSample.h; sourceTree = "<group>"; };
+		F8F52F1A1A6C1417008B6EB6 /* cellTableSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellTableSample.m; sourceTree = "<group>"; };
+		F8F52F1C1A6C18C4008B6EB6 /* popis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popis.png; path = images/popis.png; sourceTree = "<group>"; };
+		F8F52F1D1A6C18C4008B6EB6 /* nono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nono.png; path = images/nono.png; sourceTree = "<group>"; };
+		F8F52F1E1A6C18C4008B6EB6 /* kiko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiko.png; path = images/kiko.png; sourceTree = "<group>"; };
+		F8F52F1F1A6C18C4008B6EB6 /* chavo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chavo.png; path = images/chavo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,12 @@
 		F8F52ED41A6C085A008B6EB6 = {
 			isa = PBXGroup;
 			children = (
+				F8F52F1C1A6C18C4008B6EB6 /* popis.png */,
+				F8F52F1D1A6C18C4008B6EB6 /* nono.png */,
+				F8F52F1E1A6C18C4008B6EB6 /* kiko.png */,
+				F8F52F1F1A6C18C4008B6EB6 /* chavo.png */,
+				F8F52F171A6C109C008B6EB6 /* walter.jpg */,
+				F8F52F161A6C0EDC008B6EB6 /* Customizado */,
 				F8F52EE61A6C085A008B6EB6 /* TableSample */,
 				F8F52F051A6C085A008B6EB6 /* TableSampleTests */,
 				F8F52EDF1A6C085A008B6EB6 /* Frameworks */,
@@ -112,6 +131,7 @@
 		F8F52EE61A6C085A008B6EB6 /* TableSample */ = {
 			isa = PBXGroup;
 			children = (
+				F8F52F151A6C08B3008B6EB6 /* iPad */,
 				F8F52EEF1A6C085A008B6EB6 /* AppDelegate.h */,
 				F8F52EF01A6C085A008B6EB6 /* AppDelegate.m */,
 				F8F52EF21A6C085A008B6EB6 /* Main.storyboard */,
@@ -150,6 +170,22 @@
 				F8F52F081A6C085A008B6EB6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8F52F151A6C08B3008B6EB6 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		F8F52F161A6C0EDC008B6EB6 /* Customizado */ = {
+			isa = PBXGroup;
+			children = (
+				F8F52F191A6C1417008B6EB6 /* cellTableSample.h */,
+				F8F52F1A1A6C1417008B6EB6 /* cellTableSample.m */,
+			);
+			name = Customizado;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +264,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F52F181A6C109C008B6EB6 /* walter.jpg in Resources */,
 				F8F52EF91A6C085A008B6EB6 /* Images.xcassets in Resources */,
 				F8F52EEB1A6C085A008B6EB6 /* InfoPlist.strings in Resources */,
 				F8F52EF41A6C085A008B6EB6 /* Main.storyboard in Resources */,
+				F8F52F201A6C18C4008B6EB6 /* popis.png in Resources */,
+				F8F52F231A6C18C4008B6EB6 /* chavo.png in Resources */,
+				F8F52F211A6C18C4008B6EB6 /* nono.png in Resources */,
+				F8F52F221A6C18C4008B6EB6 /* kiko.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +292,7 @@
 			files = (
 				F8F52EF71A6C085A008B6EB6 /* ViewController.m in Sources */,
 				F8F52EF11A6C085A008B6EB6 /* AppDelegate.m in Sources */,
+				F8F52F1B1A6C1417008B6EB6 /* cellTableSample.m in Sources */,
 				F8F52EED1A6C085A008B6EB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,7 +421,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableSample/TableSample-Prefix.pch";
 				INFOPLIST_FILE = "TableSample/TableSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +436,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableSample/TableSample-Prefix.pch";
 				INFOPLIST_FILE = "TableSample/TableSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
